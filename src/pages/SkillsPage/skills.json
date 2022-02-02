@@ -5,6 +5,10 @@
 		"MySQL": 95,
 		"PostgreSQL": 70
 	},
+	"Deployment": {
+		"Heroku": 40,
+		"Github Pages": 90
+	},
 	"Frameworks": {
 		"Bootstrap Framework": 90,
 		"Express": 70,
@@ -30,7 +34,7 @@
 	"Tools": {
 		"Atlassian/Jira": 80,
 		"Figma": 50,
-		"Github": 100,
+		"Github": 95,
 		"Git": 80,
 		"Insomnia": 80,
 		"MySQL Workbench": 60,
