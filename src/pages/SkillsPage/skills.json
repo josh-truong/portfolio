@@ -1,41 +1,55 @@
 {
-	"High-Level Programming Languages": {
-		"C": 30,
-		"C++": 70,
+	"Databases": {
+		"Cassandra": 40,
+		"MongoDB": 40,
+		"MySQL": 95,
+		"PostgreSQL": 70
+	},
+	"Frameworks": {
+		"Bootstrap Framework": 90,
+		"Express": 70,
+		"WinForm": 25
+	},
+	"Object-Oriented Programming Languages": {
+		"C++": 80,
 		"C#": 50,
-		"JavaScript": 100,
-		"Octave": 50,
-		"Python": 70
+		"JavaScript": 70,
+		"Python": 80,
+		"Scala": 30
+	},
+	"Procedural Programming Languages": {
+		"C": 40
+	},
+	"Scientific Programming Languages": {
+		"Octave": 50
+	},
+	"Software Developemnt": {
+		"Agile": 80,
+		"Waterfall": 30
+	},
+	"Tools": {
+		"Atlassian/Jira": 80,
+		"Figma": 50,
+		"Github": 100,
+		"Git": 80,
+		"Insomnia": 80,
+		"MySQL Workbench": 60,
+		"VS Code": 85
 	},
 	"Web Developemnt": {
 		"CSS": 90,
 		"Docker": 60,
 		"HTML(5)": 90,
 		"JSON": 90,
-		"MySQL": 60,
+		"Material-UI": 90,
 		"Node js": 65,
-		"PostgreSQL": 60,
 		"React js": 90,
 		"Rest API": 85
 	},
-	"Frameworks": {
-		"Bootstrap Framework": 90,
-		"Express": 70,
-		"Material-UI": 90,
-		"WinForm": 25
-	},
-	"Tools": {
-		"Agile": 60,
-		"Atlassian/Jira": 80,
-		"Figma": 50,
-		"Github": 100,
-		"Git": 100,
-		"Insomnia": 80,
-		"MySQL Workbench": 60,
-		"VS Code": 100
-	},
 	"Miscellaneous": {
+		"Algorithms": 95,
 		"Data Analysis": 70,
+		"Data Structure": 95,
 		"FFmpeg": 40,
 		"Img Process": 50,
 		"ML/AI": 45,
