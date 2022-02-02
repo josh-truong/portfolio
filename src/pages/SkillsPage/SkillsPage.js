@@ -1,16 +1,32 @@
-import React from 'react';
-import SkillBar  from "../../components/SkillBar/SkillBar";
-
-import { useStyles } from './styles';
+import React, { useEffect, useState } from 'react';
 import Masonry from 'react-masonry-css';
 
+import SkillBar  from "../../components/SkillBar/SkillBar";
+import { useStyles } from './styles';
+
+const octokit = require("@octokit/request");
 const SkillsPage = () => {
     const classes = useStyles();
     const breakpointColumnsObj = {
         default: 2,
         1100: 1,
         };
+    
+    const githubUsername = 'josh-truong';
+    const [repos, setRepos] = useState([]);
+    useEffect(() => {
+        async function onLoad() {
+            await octokit.request(
+                'GET /users/{username}/repos', {
+                    username: githubUsername
+            })
+            .then(res => setRepos(res.data))
+            .catch(err => console.log(err));
+        }
+        onLoad();
+    }, []);
 
+    
     return (
         <div id='abilities' className={`${classes.root}`}>
             <div className={`container`}>

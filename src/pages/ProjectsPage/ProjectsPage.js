@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useStyles } from './styles';
-
-import ProjectItem from '../../components/ProjectItem/ProjectItem';
 import Masonry from 'react-masonry-css';
 
-
+// Components
+import ProjectItem from '../../components/ProjectItem/ProjectItem';
+import { useStyles } from './styles';
 
 const octokit = require("@octokit/request");
-
 const ProjectsPage = () => {
     const classes = useStyles();
     const githubUsername = 'josh-truong';

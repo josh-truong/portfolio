@@ -1,0 +1,20 @@
+{
+	"High-Level Programming Languages": {
+		"C": 30,
+		"C++": 70,
+		"C#": 50,
+		"JavaScript": 100
+	},
+	"Web Developemnt": {
+		"C": 30,
+		"C++": 70,
+		"C#": 50,
+		"JavaScript": 100
+	},
+	"Frameworks": {
+		"C": 30,
+		"C++": 70,
+		"C#": 50,
+		"JavaScript": 100
+	}
+}
