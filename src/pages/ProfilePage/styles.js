@@ -33,9 +33,10 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     timeline: {
-        margin: "0 0 0 50px",
+        margin: "0 0 0 150px",
         color: "#d1cdc7",
         borderLeft:"6px solid",
+        borderBottom:"6px solid",
         letterSpacing:"1px",
         zIndex:'0',
     },

@@ -32,13 +32,13 @@ const SkillsPage = () => {
                     Object.keys(contents).map((topicName, topicKeyIndex) => {
                         return (
                             <>
-                                <div className={`row ${classes.category}`}>{topicName}</div>
+                                <div key={topicName} className={`row ${classes.category}`}>{topicName}</div>
                                 <Masonry breakpointCols={breakpointColumnsObj} className={`${classes.my_masonry_grid}`}
                                     columnClassName={`${classes.my_masonry_grid_column}`}>
                                     {
                                         Object.keys(contents[topicName]).map((skillName, skillIndex) => {
                                             return (
-                                                <SkillBar language={`${skillName}`} percentage={contents[topicName][skillName]} />
+                                                <SkillBar key={skillName} language={`${skillName}`} percentage={contents[topicName][skillName]} />
                                             )
                                         })
                                     }
