@@ -1,0 +1,17 @@
+.date {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #b5afa6;
+}
+
+.role {
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #d1cdc7;
+}
+
+.company {
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #d65555;
+}
