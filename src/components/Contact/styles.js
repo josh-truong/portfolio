@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
     root: {
         position:'fixed',
-        bottom:"15px",
+        bottom:"35px",
         right:"1%",
         zIndex:"999",
         '@media (max-width:650px)': {
