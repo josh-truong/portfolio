@@ -38,19 +38,18 @@ const ProfilePage = () => {
                                     </Timeline>
                                 </div>
                             </div>
-
                             <div style={{margin:"0 0 0 20px"}}>
                                 <div className={classes.timeline_header}>WORK EXPERIENCE</div>
                                 <div>
                                     <Timeline
-                                        date="August 2019 - present"
-                                        role="BS, Computer Science"
-                                        company="University of Colorado Boulder">
+                                        date="Jan 2022 - present"
+                                        role="Undergraduate Research Assistant"
+                                        company="Department of Math - CU Boulder">
                                     </Timeline>
                                     <Timeline
-                                        date="August 2015 to May 2019"
-                                        role="High School Diploma"
-                                        company="Standley Lake High School">
+                                        date="August 2021 to Jan 2022"
+                                        role="Sales Floor Associate"
+                                        company="CU Bookstore - CU Boulder">
                                     </Timeline>
                                 </div>
                             </div>
