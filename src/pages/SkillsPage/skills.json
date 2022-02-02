@@ -3,18 +3,45 @@
 		"C": 30,
 		"C++": 70,
 		"C#": 50,
-		"JavaScript": 100
+		"JavaScript": 100,
+		"Octave": 50,
+		"Python": 70
 	},
 	"Web Developemnt": {
-		"C": 30,
-		"C++": 70,
-		"C#": 50,
-		"JavaScript": 100
+		"CSS": 90,
+		"Docker": 60,
+		"HTML(5)": 90,
+		"JSON": 90,
+		"MySQL": 60,
+		"Node js": 65,
+		"PostgreSQL": 60,
+		"React js": 90,
+		"Rest API": 85
 	},
 	"Frameworks": {
-		"C": 30,
-		"C++": 70,
-		"C#": 50,
-		"JavaScript": 100
+		"Bootstrap Framework": 90,
+		"Express": 70,
+		"Material-UI": 90,
+		"WinForm": 25
+	},
+	"Tools": {
+		"Agile": 60,
+		"Atlassian/Jira": 80,
+		"Figma": 50,
+		"Github": 100,
+		"Git": 100,
+		"Insomnia": 80,
+		"MySQL Workbench": 60,
+		"VS Code": 100
+	},
+	"Miscellaneous": {
+		"Data Analysis": 70,
+		"FFmpeg": 40,
+		"Img Process": 50,
+		"ML/AI": 45,
+		"OpenCV": 30,
+		"OpenGL": 60
 	}
 }
+
+
