@@ -10,6 +10,9 @@ const useStyles = makeStyles((theme) => ({
         '@media (max-width:650px)': {
             display:'none'
         },
+        '@media (max-height:650px)': {
+            display:'none'
+        },
     },
     icon: {
         "&:hover" : {
@@ -28,7 +31,10 @@ const useStyles = makeStyles((theme) => ({
         fontWeight:"500",
         borderLeft:"3px solid rgba(128, 119, 105, 0.29)",
         writingMode:"vertical-rl",
-        textOrientation:"upright", 
+        textOrientation:"upright",
+        '@media (max-height:800px)': {
+            display:'none'
+        },
     },
 }));
 
