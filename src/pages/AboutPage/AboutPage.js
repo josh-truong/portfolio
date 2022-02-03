@@ -20,7 +20,7 @@ const AboutPage = () => {
                         <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
                     </svg>
                 </Grid>
-                <Grid item xs={12} md={12} lg={12} className={`${classes.root}`}>
+                <Grid item xs={12} md={12} lg={12} className={`${classes.root}`} style={{borderBottom:"3px solid"}}>
                     <Typography className={`${classes.intro}`} gutterBottom variant="h5" component="h2">
                         Who's this guy?
                     </Typography>

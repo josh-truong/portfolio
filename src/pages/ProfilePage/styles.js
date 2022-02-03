@@ -9,18 +9,17 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "#181a1b",
         // backgroundImage: `url(${Vietnam})`,
         backgroundRepeat:"no-repeat",
-        backgroundPosition: '50% 100%'
+        backgroundPosition: '50% 100%',
     },
     h2: {
         color:'#63dedb',
-
         fontSize:'54px',
         fontWeight:'300',
-
         margin:'20px 0 20px 0',
     },
     lead: {
         color:'#9e9689',
+        textAlign:'center',
     },
     svg: {
         position:"absolute",
@@ -33,17 +32,16 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     timeline: {
-        margin: "0 0 0 150px",
+        margin: "0 0 0 2%",
         color: "#d1cdc7",
         borderLeft:"6px solid",
-        borderBottom:"6px solid",
         letterSpacing:"1px",
         zIndex:'0',
     },
     timeline_header: {
         color: "#d1cdc7",
         borderBottom:"1px solid",
-        width:"60%"
+        width:"60%",
     }
 }));
 

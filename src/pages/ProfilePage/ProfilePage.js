@@ -11,7 +11,7 @@ const ProfilePage = () => {
         <div id='profile' className={`${classes.root}`}>
             <div className="container" style={{zIndex:"2"}}>
                 <h2 className={`${classes.h2}`}>Profile</h2>
-                <h3 className={`${classes.lead}`}>I'm striving to become a Software Engineer</h3>
+                <h3 className={`${classes.lead}`}>"You learn to paint mostly by doing it. Ditto for hacking." -Paul Graham</h3>
                 <hr />
                 
                 
