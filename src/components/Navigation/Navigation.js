@@ -6,7 +6,6 @@ import HomeIcon from '@material-ui/icons/Home';
 import PersonIcon from '@material-ui/icons/Person';
 import CodeIcon from '@material-ui/icons/Code';
 import DashboardIcon from '@material-ui/icons/Dashboard';
-import Airplay from '@material-ui/icons/Airplay';
 
 const Navigation = () => {
     const classes = useStyles();
@@ -28,10 +27,6 @@ const Navigation = () => {
                 <br />
                 <a href="#projects" className={classes.a} style={{color:"black", textDecoration:"none"}}>
                     <DashboardIcon className={classes.icon} />
-                </a>
-                <br />
-                <a href="" className={classes.a} style={{color:"black", textDecoration:"none"}}>
-                    <Airplay className={classes.icon} />
                 </a>
             </div>
         </div>
