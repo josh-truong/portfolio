@@ -37,6 +37,7 @@ const ProjectItem = ({ name, description, image, link, htmlURL, createdOn}) => {
         }
         axios.get(`${image}`)
             .catch(err => {
+                console.log("demo.png file not found in github repo/main branch");
                 setImageExists(false);
             })
         onLoad();
