@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
         '@media (max-width:650px)': {
             display:'none'
         },
-        '@media (max-height:650px)': {
+        '@media (max-height:750px)': {
             display:'none'
         },
     },
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
         borderLeft:"3px solid rgba(128, 119, 105, 0.29)",
         writingMode:"vertical-rl",
         textOrientation:"upright",
-        '@media (max-height:800px)': {
+        '@media (max-height:880px)': {
             display:'none'
         },
     },
