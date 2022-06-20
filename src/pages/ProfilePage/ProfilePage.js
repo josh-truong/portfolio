@@ -32,7 +32,7 @@ const ProfilePage = () => {
                     <Grid item xs={12} md={6} lg={6}>
                         <About></About>
                     </Grid>
-                    <Grid item xs={12} md={6} lg={6}>
+                    <Grid item xs={12} md={6} lg={6}  style={{paddingLeft:'10vw'}}>
                         <div className={`${classes.timeline}`}>
                         {
                             Object.keys(contents).map((section, sectionIdx) => {
@@ -40,7 +40,7 @@ const ProfilePage = () => {
                                     <>
                                         <div style={{margin:"0 0 0 20px"}}>
                                             <div key={section} className={`${classes.timeline_header}`}>{section}</div>
-                                            <div>
+                                            <div style={{marginLeft:"10px"}}>
                                                 {
                                                     Object.keys(contents[section]).map((experience, experienceIdx) => {
                                                         return (
