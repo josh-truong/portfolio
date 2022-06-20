@@ -40,7 +40,7 @@ const SkillsPage = () => {
                                                     key={skillName}
                                                     label={`${skill}`} 
                                                     style={{
-                                                        backgroundColor:'#63dedb',
+                                                        backgroundColor:'#10707f',
                                                         color:"white",
                                                         fontSize:'15px',
                                                         fontFamily:'Arial, Helvetica, sans-serif',
