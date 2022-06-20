@@ -60,7 +60,7 @@ const HomePage = () => {
     };
 
     const lerp = (color1, color2, ts) => {
-        if ( ts < 0 && ts > 1.0) throw new Error('Param ts must be a value between 0 and 1!');
+        if ( ts < 0 || ts >= 1.0) throw new Error('Param ts must be a value between 0 and 1!');
         var r = color1[0] * (1 - ts) + color2[0] * ts;
         var g = color1[1] * (1 - ts) + color2[1] * ts;
         var b = color1[2] * (1 - ts) + color2[2] * ts;
@@ -76,32 +76,40 @@ const HomePage = () => {
         ctx.lineWidth = 0.3;
 
         for ( let i = 0; i < triangles.length; i+=3 ) {
+            const idx_arr = triangles.slice(i,i+3);
+            const vtx_arr = idx_arr.map(idx => vertices[idx]);
+
+            // Create triangle
             ctx.beginPath();
-            ctx.moveTo(vertices[triangles[i    ]][0], vertices[triangles[i    ]][1]);
-            ctx.lineTo(vertices[triangles[i + 1]][0], vertices[triangles[i + 1]][1]);
-            ctx.lineTo(vertices[triangles[i + 2]][0], vertices[triangles[i + 2]][1]);
+            ctx.moveTo(vtx_arr[0][0], vtx_arr[0][1]);
+            ctx.lineTo(vtx_arr[1][0], vtx_arr[1][1]);
+            ctx.lineTo(vtx_arr[2][0], vtx_arr[2][1]);
             ctx.closePath();
             ctx.stroke();
 
-            var ts = (vertices[triangles[i]][1] + vertices[triangles[i+1]][1] + vertices[triangles[i+2]][1]);
-                ts /= (3*255);
+            // Get timestep for lerp
+            var ts = Math.abs(vtx_arr[0][1] + vtx_arr[1][1] + vtx_arr[2][1]);
+                ts /= (3*window.innerHeight+10);
+            
             const light_cyan = [4, 194, 201];
-            const dark_cyan = [0, 161, 167];
+            const dark_cyan = [0, 78, 82];
             var lerp_color = lerp(light_cyan, dark_cyan, ts);
+
+            // Fill in color
             ctx.fillStyle = `rgba(${lerp_color[0]}, ${lerp_color[1]}, ${lerp_color[2]}, 1.0)`;
             ctx.fill();
 
             ctx.fillStyle = '#fff';
             ctx.beginPath();
-            ctx.arc(vertices[triangles[i    ]][0], vertices[triangles[i    ]][1], 3, 0, 2*Math.PI, 0);
+            ctx.arc(vtx_arr[0][0], vtx_arr[0][1], 3, 0, 2*Math.PI, 0);
             ctx.fill();
 
             ctx.beginPath();
-            ctx.arc(vertices[triangles[i + 1]][0], vertices[triangles[i + 1]][1], 3, 0, 2*Math.PI, 0);
+            ctx.arc(vtx_arr[1][0], vtx_arr[1][1], 3, 0, 2*Math.PI, 0);
             ctx.fill();
 
             ctx.beginPath();
-            ctx.arc(vertices[triangles[i + 2]][0], vertices[triangles[i + 2]][1], 3, 0, 2*Math.PI, 0);
+            ctx.arc(vtx_arr[2][0], vtx_arr[2][1], 3, 0, 2*Math.PI, 0);
             ctx.fill();
         }
     };
@@ -151,7 +159,7 @@ const HomePage = () => {
                 <canvas ref={canvasRef} style={{position:"absolute"}} />
                 <div className={classes.tagbox}>
                     <h1 className={classes.text} style={{fontSize:"30px"}}>Joshua Truong</h1>
-                    <h3 className={classes.text} style={{fontSize:"15px"}}>Software Engineer</h3>
+                    <h3 className={classes.text} style={{fontSize:"15px"}}>Software Developer</h3>
                 </div>
             </div>
         </div>

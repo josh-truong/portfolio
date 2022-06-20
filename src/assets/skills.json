@@ -14,22 +14,19 @@
 		"Express": 70,
 		"WinForm": 25
 	},
-	"Object-Oriented Programming Languages": {
+	"Languages": {
+		"C": 40,
 		"C++": 80,
 		"C#": 50,
 		"JavaScript": 70,
+		"Octave": 50,
 		"Python": 80,
 		"Scala": 30
 	},
-	"Procedural Programming Languages": {
-		"C": 40
-	},
 	"Software as a service (SaaS)": {
 		"Google Maps": 20,
+		"Alpha Vantage": "",
 		"Stripe": 70
-	},
-	"Scientific Programming Languages": {
-		"Octave": 50
 	},
 	"Software Developemnt": {
 		"Agile": 80,
