@@ -1,0 +1,66 @@
+{
+	"Databases": {
+		"Cassandra": 40,
+		"MongoDB": 40,
+		"MySQL": 95,
+		"PostgreSQL": 70
+	},
+	"Deployment": {
+		"Heroku": 40,
+		"Github Pages": 90
+	},
+	"Frameworks": {
+		"Bootstrap Framework": 90,
+		"Express": 70,
+		"WinForm": 25
+	},
+	"Languages": {
+		"C": 40,
+		"C++": 80,
+		"C#": 50,
+		"JavaScript": 70,
+		"Octave": 50,
+		"Python": 80,
+		"Scala": 30
+	},
+	"Software as a service (SaaS)": {
+		"Google Maps": 20,
+		"Alpha Vantage": "",
+		"Stripe": 70
+	},
+	"Software Developemnt": {
+		"Agile": 80,
+		"Waterfall": 30
+	},
+	"Tools": {
+		"Atlassian/Jira": 80,
+		"Figma": 50,
+		"Github": 95,
+		"Git": 80,
+		"Insomnia": 80,
+		"MySQL Workbench": 60,
+		"VS Code": 85
+	},
+	"Web Developemnt": {
+		"CSS": 90,
+		"Docker": 60,
+		"HTML(5)": 90,
+		"JSON": 90,
+		"Material-UI": 90,
+		"Node js": 65,
+		"React js": 90,
+		"Rest API": 85
+	},
+	"Miscellaneous": {
+		"Algorithms": 95,
+		"Data Analysis": 70,
+		"Data Structure": 95,
+		"FFmpeg": 40,
+		"Img Process": 50,
+		"ML/AI": 45,
+		"OpenCV": 30,
+		"OpenGL": 60
+	}
+}
+
+
