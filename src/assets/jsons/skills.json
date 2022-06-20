@@ -1,6 +1,7 @@
 {
 	"Databases": {
 		"Cassandra": "",
+		"MariaDB": "",
 		"MongoDB": "",
 		"MySQL": "",
 		"PostgreSQL": ""
@@ -10,8 +11,9 @@
 		"Github Pages": ""
 	},
 	"Frameworks": {
-		"Bootstrap Framework": "",
+		"Bootstrap": "",
 		"Express": "",
+		"Laravel": "",
 		"WinForm": ""
 	},
 	"Languages": {
@@ -20,10 +22,12 @@
 		"C#": "",
 		"JavaScript": "",
 		"Octave": "",
+		"PHP": "",
 		"Python": "",
 		"Scala": ""
 	},
 	"Software as a service (SaaS)": {
+		"Google Cloud Platform (GCP)": "",
 		"Google Maps": "",
 		"Alpha Vantage": "",
 		"Stripe": ""
@@ -39,11 +43,13 @@
 		"Git": "",
 		"Insomnia": "",
 		"MySQL Workbench": "",
+		"Vim": "",
 		"VS Code": ""
 	},
 	"Web Developemnt": {
 		"CSS": "",
 		"Docker": "",
+		"Docker Compose": "",
 		"HTML(5)": "",
 		"JSON": "",
 		"Material-UI": "",
@@ -51,13 +57,27 @@
 		"React js": "",
 		"Rest API": ""
 	},
-	"Miscellaneous": {
+	"Courses": {
+		"Data Structures": "",
+		"Discrete Structures": "",
+		"Linear Algebra": "",
+		"Computer Systems": "",
+		"Intro to Data Science w/ Probability and Statistics": "",
+		"Software Development Methods and Tools": "",
 		"Algorithms": "",
+		"Artifical Intelligence": "",
+		"Databae Systems": "",
+		"Principles of Programming Languages": "",
+		"Advance Data Science": "",
+		"Big Data Architecture": "",
+		"**Intro to Robotics": "",
+		"**Intro to CyberSecurity": "",
+		"**Machine Learning": ""
+	},
+	"Miscellaneous": {
 		"Data Analysis": "",
-		"Data Structure": "",
 		"FFmpeg": "",
-		"Img Process": "",
-		"ML/AI": "",
+		"Image Processing": "",
 		"OpenCV": "",
 		"OpenGL": ""
 	}
