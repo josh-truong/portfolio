@@ -11,7 +11,7 @@ const SkillsPage = () => {
     const repositoryName = 'portfolio-website'
     const [contents, setContents] = useState([]);
     useEffect(() => {
-        axios.get(`https://raw.githubusercontent.com/${githubUsername}/${repositoryName}/main/src/assets/jsons/profile.json`)
+        axios.get(`https://raw.githubusercontent.com/${githubUsername}/${repositoryName}/main/src/assets/jsons/skills.json`)
             .then(res => {setContents(res.data);})
             .catch(err => {
                 console.log("skills.json does not exists!");
@@ -44,7 +44,7 @@ const SkillsPage = () => {
                                                         color:"white",
                                                         fontSize:'15px',
                                                         fontFamily:'Arial, Helvetica, sans-serif',
-                                                        margin:'0 5px 10px 5px'
+                                                        margin:'0 10px 10px 0'
                                                     }}
                                                 />
                                             )
