@@ -1,4 +1,21 @@
 {
+	"Courses": {
+		"Data Structures": "",
+		"Discrete Structures": "",
+		"Linear Algebra": "",
+		"Computer Systems": "",
+		"Intro to Data Science w/ Probability and Statistics": "",
+		"Software Development Methods and Tools": "",
+		"Algorithms": "",
+		"Artifical Intelligence": "",
+		"Databae Systems": "",
+		"Principles of Programming Languages": "",
+		"Advance Data Science": "",
+		"Big Data Architecture": "",
+		"**Intro to Robotics": "",
+		"**Intro to CyberSecurity": "",
+		"**Machine Learning": ""
+	},
 	"Databases": {
 		"Cassandra": "",
 		"MariaDB": "",
@@ -56,23 +73,6 @@
 		"Node js": "",
 		"React js": "",
 		"Rest API": ""
-	},
-	"Courses": {
-		"Data Structures": "",
-		"Discrete Structures": "",
-		"Linear Algebra": "",
-		"Computer Systems": "",
-		"Intro to Data Science w/ Probability and Statistics": "",
-		"Software Development Methods and Tools": "",
-		"Algorithms": "",
-		"Artifical Intelligence": "",
-		"Databae Systems": "",
-		"Principles of Programming Languages": "",
-		"Advance Data Science": "",
-		"Big Data Architecture": "",
-		"**Intro to Robotics": "",
-		"**Intro to CyberSecurity": "",
-		"**Machine Learning": ""
 	},
 	"Miscellaneous": {
 		"Data Analysis": "",
