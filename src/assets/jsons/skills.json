@@ -30,6 +30,7 @@
 	"Frameworks": {
 		"Bootstrap": "",
 		"Express": "",
+		"MVC": "",
 		"WinForm": ""
 	},
 	"Languages": {
