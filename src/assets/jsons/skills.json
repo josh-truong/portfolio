@@ -1,87 +1,85 @@
 {
-	"Courses": {
-		"Data Structures": "",
-		"Discrete Structures": "",
-		"Linear Algebra": "",
-		"Computer Systems": "",
-		"Intro to Data Science w/ Probability and Statistics": "",
-		"Software Development Methods and Tools": "",
-		"Algorithms": "",
-		"Artifical Intelligence": "",
-		"Databae Systems": "",
-		"Principles of Programming Languages": "",
-		"Advance Data Science": "",
-		"Big Data Architecture": "",
-		"**Intro to Robotics": "",
-		"**Intro to CyberSecurity": "",
-		"**Machine Learning": ""
-	},
-	"Databases": {
-		"Cassandra": "",
-		"MariaDB": "",
-		"MongoDB": "",
-		"MySQL": "",
-		"PostgreSQL": ""
-	},
-	"Deployment": {
-		"Heroku": "",
-		"Github Pages": ""
-	},
-	"Frameworks": {
-		"ASP.NET": "",
-		"Bootstrap": "",
-		"Express": "",
-		"MVC": "",
-		"WinForm": ""
-	},
-	"Languages": {
-		"C": "",
-		"C++": "",
-		"C#": "",
-		"JavaScript": "",
-		"Octave": "",
-		"PHP": "",
-		"Python": "",
-		"Scala": ""
-	},
-	"Software as a service (SaaS)": {
-		"Google Cloud Platform (GCP)": "",
-		"Google Maps": "",
-		"Alpha Vantage": "",
-		"Stripe": ""
-	},
-	"Software Developemnt": {
-		"Agile": "",
-		"Waterfall": ""
-	},
-	"Tools": {
-		"Atlassian/Jira": "",
-		"Figma": "",
-		"Github": "",
-		"Git": "",
-		"Insomnia": "",
-		"MySQL Workbench": "",
-		"Vim": "",
-		"VS Code": ""
-	},
-	"Web Developemnt": {
-		"CSS": "",
-		"Docker": "",
-		"Docker Compose": "",
-		"HTML(5)": "",
-		"JSON": "",
-		"Material-UI": "",
-		"Node js": "",
-		"React js": "",
-		"Rest API": ""
-	},
-	"Miscellaneous": {
-		"Data Analysis": "",
-		"FFmpeg": "",
-		"Image Processing": "",
-		"OpenCV": "",
-		"OpenGL": ""
-	}
+    "Courses": {
+        "Data Structures": "",
+        "Discrete Structures": "",
+        "Linear Algebra": "",
+        "Computer Systems": "",
+        "Intro to Data Science w/ Probability and Statistics": "",
+        "Software Development Methods and Tools": "",
+        "Algorithms": "",
+        "Artifical Intelligence": "",
+        "Databae Systems": "",
+        "Principles of Programming Languages": "",
+        "Advance Data Science": "",
+        "Big Data Architecture": "",
+        "Andrew Ng Machine Learning Course": "",
+        "**Intro to Robotics": "",
+        "**Intro to CyberSecurity": "",
+        "**Machine Learning": ""
+    },
+    "Cloud": {
+        "Heroku": "",
+        "Github Pages": "",
+        "Google Cloud Platform (GCP)": ""
+    },
+    "Databases": {
+        "Cassandra": "",
+        "MariaDB": "",
+        "MongoDB": "",
+        "MySQL": "",
+        "PostgreSQL": ""
+    },
+    "Frameworks": {
+        "ASP.NET": "",
+        "Bootstrap": "",
+        "Express": "",
+        "MVC": "",
+        "Node.js": "",
+        "React.js": "",
+        "REST": "",
+        "WinForm": ""
+    },
+    "Languages": {
+        "C": "",
+        "C++": "",
+        "C#": "",
+        "JavaScript": "",
+        "Octave": "",
+        "PHP": "",
+        "Python": "",
+        "Scala": "",
+        "SQL": "",
+        "HTML(5)/CSS": "",
+        "LaTex": ""
+    },
+    "Software as a Service (SaaS)": {
+        "Alpha Vantage": "",
+        "Google Maps": "",
+        "Stripe": ""
+    },
+    "Tools and Software": {
+        "Agile": "",
+        "Atlassian/Jira": "",
+        "Docker": "",
+        "Docker Compose": "",
+        "Figma": "",
+        "Github": "",
+        "Git": "",
+        "Insomnia": "",
+        "Jupter Notebook": "",
+        "MySQL Workbench": "",
+        "Postman": "",
+        "Selenium": "",
+        "Vim": "",
+        "VS Code": "",
+        "Waterfall": ""
+    },
+    "Libraries": {
+        "FFmpeg": "",
+        "Material-UI": "",
+        "OpenCV": "",
+        "OpenGL": "",
+        "NumPy": "",
+        "Pandas": ""
+    }
 }
-
-
