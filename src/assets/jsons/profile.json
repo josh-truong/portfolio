@@ -13,8 +13,13 @@
     ],
     "EXPERIENCE": [
         {
+            "tenure": "**Pending (Aug 2022 - Present)",
+            "position": "Application Developer",
+            "location": "Office of Registrar - CU Boulder"
+        },
+        {
             "tenure": "Jan 2022 - May 2022",
-            "position": "Frontend Developer - Intermediate Student Assistant",
+            "position": "Frontend Developer",
             "location": "Department of Computer Science - CU Boulder"
         },
         {
