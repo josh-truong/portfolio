@@ -1,27 +1,37 @@
 {
-    "Courses": {
+    "courses": {
+        "Algorithms": "",
         "Data Structures": "",
+        "Artificial Intelligence": "",
+        "Machine Learning": "",
+        "Data Mining": "",
+        "Software Development": "",
+        "Databases": "",
+        "Data Science": "",
+        "Big Data Architecture": "",
+        "Principal of Programming Languages": "",
+        "Operating Systems": "",
+        "Computer Systems": "",
+        "Robotics": "",
+        "CyberSecurity": "",
+        "Mobile Development": "",
+        "Object-Oriented Analysis and Design": "",
+        "Natural Language Processing": "",
         "Discrete Structures": "",
         "Linear Algebra": "",
-        "Computer Systems": "",
         "Intro to Data Science w/ Probability and Statistics": "",
         "Software Development Methods and Tools": "",
-        "Algorithms": "",
-        "Artifical Intelligence": "",
-        "Databae Systems": "",
+        "Artificial Intelligence": "",
+        "Database Systems": "",
         "Principles of Programming Languages": "",
         "Advance Data Science": "",
-        "Big Data Architecture": "",
         "Andrew Ng Machine Learning Course": "",
         "Intro to Robotics": "",
-        "Intro to CyberSecurity": "",
-        "Machine Learning": "",
-        "**Natural Language Processing (NLP)": "",
-        "**Object-Oriented Analysis and Design": ""
+        "Intro to CyberSecurity": ""
     },
     "Cloud": {
         "Heroku": "",
-        "Github Pages": "",
+        "GitHub Pages": "",
         "Google Cloud Platform (GCP)": ""
     },
     "Databases": {
